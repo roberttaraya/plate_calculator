@@ -1,16 +1,27 @@
-# layout.erb
+<!-- # layout.erb -->
 
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf8">
+  <title>Plate Calculator</title>
+  <!-- <link href="/reset.css" rel="stylesheet"> -->
+  <!-- <link href="/style.css" rel="stylesheet"> -->
+</head>
+<body>
+  <header>
+    <hgroup>
+      <h1>No More Adding Weights</h1>
+      <h2>'cause you're too tired to count</h2>
+    </hgroup>
+  </header>
 
-  <head>
-    <title>  </title>
-  </head>
-
-  <body>
-
+  <div id="main">
     <%= yield %>
+  </div>
 
-  </body>
+  <footer>
 
+  </footer>
+</body>
 </html>
-
